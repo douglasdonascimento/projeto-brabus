@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="apple-touch-icon.png" type="image/x-icon">
+    <style>
+            :root{
+
+                --cor1:#011140;
+                --cor2:#044BD9;
+                --cor3:#0460D9;
+                --cor4:#0597F2;
+                --cor5:#05AFF2;
+
+                --font-destaque: "Rowdies", sans-serif;
+                }   
+            body{
+                background-image: linear-gradient(to right, var(--cor1), var(--cor5));
+                min-width: 300px;
+                max-width: 1500px;
+                margin: auto;
+            
+            }
+            .exterol::after{
+                content: "💈\00A0";
+            }
+            h1{
+                color: white;
+                font-family: var(--font-destaque);
+                text-shadow: 2px 2px  0px var(--cor5);
+                font-size: 35px;
+                text-decoration: none;
+                text-align: center;
+                padding: 20px;
+                margin-bottom: 20px;
+                margin-top: 20px;
+                max-width: 1500px;
+                min-width: 270px;
+            }
+            main{
+                background-color: white;
+                border-radius: 25px;
+                text-align: center;
+                margin-top: 15px;
+                padding: 15px;
+                box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.452);
+                max-width: 1500px;
+                min-height: auto;
+                margin: 50px;
+            }
+            main a > li{
+                color:var(--cor3);
+                font-family:var(--font-destaque);
+                font-size: 16px;
+                list-style-position: inside;
+                list-style-type: "💈\00A0";
+                font-weight: bold;
+                padding: 10px;
+                text-decoration: none; 
+            }
+            li:hover{
+                text-decoration:none; 
+                color:white;
+                background-color:var(--cor3);
+                border-radius: 20px;
+                transition: 0,5s;
+                padding-left: 50px;
+            }
+            button  a{
+                color:var(--cor4);
+                padding-left: 40px;
+                font-family:var(--font-destaque);
+                font-size: 17px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+            button a:hover{
+                text-decoration:underline; color:var(--cor1); 
+                text-decoration: none;
+            }
+            .botaodois{
+                color:var(--cor4);
+                padding-left: 40px;
+                font-family:var(--font-destaque);
+                font-size: 17px;
+                text-decoration: none;
+                font-weight: bold;
+            }
+    </style>
+    <title>Barber</title>
+</head>
+<body>
+    <h1>Aqui está nosso catálago de alguns de nosso serviços serviços!</h1>
+    <main>
+        <a href="imagens/fotodocorteum.png">
+            <li>Corte básico = $20</li>
+        </a>
+        <a href="imagens/fotodocorteum.png">
+            <li>Corte com disfraçado = $30</li>
+        </a>
+        <a href="imagens/fotodocorteum.png">
+            <li>Corte com tesourra = $35</li>
+        </a>
+        <a href="imagens/fotodocorteum.png">
+            <li>Corte só maquina = $25</li>
+        </a>
+        <a href="imagens/fotodocorteum.png">
+            <li>Corte + Barba = $40</li>
+        </a>
+        <a href="imagens/fotodocorteum.png">
+            <li>Sombracelha = $5</li>
+        </a>
+        <a href="imagens/fotodocorteum.png"><li>Pigmentação = $30</li></a>
+        <a href="imagens/fotodocorteum.png"><li>Platinado = $80</li></a>
+    </main>
+    <button>
+        <a href="barber.html">Voltar</a>
+    </button>
+    <button>
+        <a class="botaodois" href="feedbak.html">Feedbacks</a>
+    </button>
+</body>
+</html>

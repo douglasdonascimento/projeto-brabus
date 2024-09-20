@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="logobarbearia (2).png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="apple-touch-icon.png" type="image/x-icon">
+    <style>
+
+        :root{
+
+            --cor1:#011140;
+            --cor2:#044BD9;
+            --cor3:#0460D9;
+            --cor4:#0597F2;
+            --cor5:#05AFF2;
+            --cor6: white;
+
+            --font-destaque: "Rowdies", sans-serif;
+            } 
+              .exterol::after{
+                content: "💈\00A0";
+            } 
+            .externo::after{
+            content: '\00A0🔗';
+            }   
+        body{
+            background-image: linear-gradient(to right,var(--cor1), var(--cor5));
+            min-width: 300px;
+            max-width: 1500px;
+            margin: auto;
+        }
+        h1{
+            color: white;
+            font-family: var(--font-destaque);
+            text-shadow: 2px 2px  0px var(--cor5);
+            font-size: 45px;
+            text-decoration: none;
+            text-align: center;
+            padding: 20px;
+            margin-top: 0%;
+            margin-bottom: 20px;
+            max-width: 1500px;
+            min-width: 270px;
+        }
+        main{
+            background-color:white ;
+            box-shadow: 0px 0px 10px white;
+            border-radius: 10px 10px 0px 0px ;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50%;
+            margin-bottom: 20px;
+            max-width: 1500px;
+            min-width: 170px;
+            margin: 10px 10px auto;
+            display: block;
+            unicode-bidi: isolate;
+        }
+        main a{
+            padding: 31px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 34px;
+            transition-duration: .5s;                
+            color:var(--cor4);
+            font-family:var(--font-destaque);
+            font-size: 16px;
+            text-decoration: none;
+            font-weight: bold;
+        }    
+        a:hover{
+            margin-bottom: 20px;
+            margin-top: 20px;
+            max-width: 2000px;
+            min-width: 170px;
+            color: var(--cor1);
+            text-align: center;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+            transition-duration: .5s;
+        }
+        img{
+            width: 100%;
+            margin: 10px 10px auto;
+            display: block;
+            margin-bottom: 15px;
+            margin: 10px 10px auto;
+            max-width: 1800px;
+            min-width: 170px;
+            max-height: 1500px;
+        }
+        footer{
+            color: white;
+            background-color: var(--cor1);
+            text-align: center;
+            font-size: 0.8em;
+            padding: 5px;
+            width: 100%;
+            margin: -10px 5px;
+            display: block;
+            margin-bottom: 15px;
+        }
+        .footer{
+            color:white;
+            text-decoration: none;
+            list-style-type: '\00A0🔗';
+        }
+    </style>
+    <title>Barber</title>
+</head>
+<body>
+    <h1>Bem vindo a King Barber!</h1>
+    <main>
+        <a href="menu.html">Menu</a>
+        <a href="preço.html">Tabela de Preço</a>
+        <a href="feedbak.html">Feedbacks</a>
+        <a href="quemsomos.html">Quem somos?</a>
+        <a href="fale.html">Contatos</a>
+    </main>
+    <picture>
+        <source media="(max-width:680px )" srcset="imagens/logobrabusppqn.png">
+        <img src="imagens/logobrabus.png.png" width="480px" alt="">
+    </picture>
+    <footer>Site criado por <a class="footer" href="#">Douglas</a></footer>
+</body>
+</html>
