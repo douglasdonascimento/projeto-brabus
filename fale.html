@@ -15,12 +15,19 @@
 
                 --font-destaque: "Rowdies", sans-serif;
             }
+
         body{
                 background-image: linear-gradient(to left, var(--cor1), var(--cor5));
-                min-width: none;
+                min-width: 300px;
                 max-width: 1500px;
                 margin: auto;
-        }
+                background-color: black;
+                height: 100vh;
+                background-image: url(imagens/fotopfundo.jpg);
+                background-size: cover;
+                background-repeat: no-repeat;
+                background-position: top center;
+            }
         h1{
             color: white;
             font-family: var(--font-destaque);
@@ -31,12 +38,21 @@
             min-height: 0px;
             padding-top: 40px;
         }
+        main{
+            max-width: 1022px;
+            min-width: 300px;
+            padding: 18px;
+            margin: auto;
+            display: block;
+            unicode-bidi: isolate;
+        }
         .whats{
             position:absolute;
             left: 50%;
             transform: translateX(-50%);
-            background-color: var(--cor3);
-            color: white;
+            background-image: linear-gradient(to right, var(--cor1), transparent);
+            color: red;
+            padding: 25px;
             border-radius: 20px;
             font-family: var(--font-destaque);
             font-size: 24px;
@@ -44,37 +60,42 @@
             text-align: center;
             font-weight: bold;
             font-style: normal;
-            max-width: 2000px;
-            min-width: 170px;
-            margin: 43px 14px 23px 10px;
+            max-width: 1022px;
+            min-width: 300px;
+            margin: auto;
+            display: block;
         }
         .insta{ 
             position:absolute;
             left: 50%;
             transform: translateX(-50%);
-            margin-top: 20%;
-            background-color: var(--cor3);
+            margin-top: 10%;
+            background-image: linear-gradient(to right, var(--cor1), transparent);
             color: white;
-            border-radius: 80px;
+            padding: 31px;
+            border-radius: 20px;
             font-family: var(--font-destaque);
             font-size: 28px;
             text-align: center;
             text-decoration: none;
             font-weight: bold;
             font-style: normal;
-            max-width: 2000px;
-            min-width: 170px;
+            max-width: 1022px;
+            min-width: 300px;
+            margin: auto;
+            display: block;
         }
         .certificados{
             position:absolute;
             left: 50%;
             transform: translateX(-50%);
-            margin-top: 50%;
-            background-color: var(--cor3);
+            margin-top: 18%;
+            background-image: linear-gradient(to right, var(--cor1), transparent);
             color: white;
+            padding: 30px;
             border-radius: 20px;
             font-family: var(--font-destaque);
-            font-size: 24px;
+            font-size: 31px;
             text-decoration: none;
             text-align: center;
             font-weight: bold;
@@ -86,12 +107,13 @@
             position:absolute;
             left: 50%;
             transform: translateX(-50%);
-            margin-top: 80%;
-            background-color: var(--cor3);
+            margin-top: 27%;
+            background-image: linear-gradient(to right, var(--cor1), transparent);
             color: white;
+            padding: 25px;
             border-radius: 20px;
             font-family: var(--font-destaque);
-            font-size: 24px;
+            font-size: 30px;
             text-align: center;
             text-decoration: none;
             font-weight: bold;
@@ -115,20 +137,20 @@
     <h1>
         Como falar Conosco
     </h1>
-        <main>
-            <p class="whats">
-                Nosso WhatsApp Oficial: <a href="https://web.whatsapp.com/" target="_blank">WhatsApp</a>
-            </p>
-            <p class="insta">
-                Nosso Instagram Oficial: <a href="https://www.instagram.com/neymarjr/" target="_blank">Barbearia Brabus</a>
-            </p>
-            <p class="certificados">
-                Nossos certificados: <a href="https://www.pexels.com/pt-br/foto/rapariga-com-um-certificado-1792617/" target="_blank">Nossas Conquistas</a>
-            </p>
-            <p class="local">
-                Nosso Endereço: <a href="https://www.google.com/maps/place/R.+da+Inf%C3%A2ncia,+406+-+Santa+Rosa+de+Lima,+Porto+Alegre+-+RS,+91170-715/@-30.0003273,-51.1123561,15z/data=!3m1!4b1!4m6!3m5!1s0x9519767c3eabe541:0x125fe0e08db7d10!8m2!3d-30.0003277!4d-51.1020564!16s%2Fg%2F11cslq3c80?entry=ttu&g_ep=EgoyMDI0MDkwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank">Localização da Brabus</a>
-            </p>
-        </main>
+                <main>
+                    <p class="whats">
+                        Nosso WhatsApp Oficial: <a href="https://web.whatsapp.com/" target="_blank">WhatsApp</a>
+                    </p>
+                    <p class="insta">
+                        Nosso Instagram Oficial: <a href="https://www.instagram.com/neymarjr/" target="_blank">Barbearia Brabus</a>
+                    </p>
+                    <p class="certificados">
+                        Nossos certificados: <a href="https://www.pexels.com/pt-br/foto/rapariga-com-um-certificado-1792617/" target="_blank">Nossas Conquistas</a>
+                    </p>
+                    <p  class="local">
+                        Nosso Endereço:<a href="https://www.google.com/maps/place/R.+da+Inf%C3%A2ncia,+406+-+Santa+Rosa+de+Lima,+Porto+Alegre+-+RS,+91170-715/@-30.0003273,-51.1123561,15z/data=!3m1!4b1!4m6!3m5!1s0x9519767c3eabe541:0x125fe0e08db7d10!8m2!3d-30.0003277!4d-51.1020564!16s%2Fg%2F11cslq3c80?entry=ttu&g_ep=EgoyMDI0MDkwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank">Localização da Brabus</a>
+                    </p>
+                </main>
     <button>
         <a href="index.html">Voltar</a>
     </button>
